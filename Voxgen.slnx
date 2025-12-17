@@ -1,7 +1,11 @@
 <Solution>
   <Configurations>
     <Platform Name="x64" />
-    <Platform Name="x86" />
   </Configurations>
-  <Project Path="Voxgen/Voxgen.vcxproj" />
+  <Project Path="Sandbox/Sandbox.vcxproj">
+    <BuildType Project="Debug" />
+  </Project>
+  <Project Path="Voxgen/Voxgen.vcxproj">
+    <BuildType Project="Debug" />
+  </Project>
 </Solution>
