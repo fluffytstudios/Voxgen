@@ -14,9 +14,7 @@ public:
 	}
 };
 
-void main()
+Voxgen::Application* Voxgen::CreateApplication()
 {
-	Sandbox* sandbox = new Sandbox();
-	sandbox->Run();
-	delete sandbox;
-}
+	return new Sandbox();
+}	

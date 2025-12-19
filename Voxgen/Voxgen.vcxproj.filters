@@ -24,6 +24,9 @@
     <ClInclude Include="src\Voxgen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Voxgen\EntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Voxgen\Application.cpp">
