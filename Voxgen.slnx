@@ -2,10 +2,10 @@
   <Configurations>
     <Platform Name="x64" />
   </Configurations>
-  <Project Path="Sandbox/Sandbox.vcxproj">
+  <Project Path="Sandbox/Sandbox.vcxproj" Id="6cb4ca01-dd88-4fc7-a823-77e40d596b0b">
     <BuildType Project="Debug" />
   </Project>
-  <Project Path="Voxgen/Voxgen.vcxproj">
+  <Project Path="Voxgen/Voxgen.vcxproj" Id="331dac74-d079-44e6-8230-a98a84d4984e">
     <BuildType Project="Debug" />
   </Project>
 </Solution>
