@@ -66,6 +66,10 @@
       <AdditionalLibraryDirectories>$(SolutionDir)bin\Debug-x64\Voxgen</AdditionalLibraryDirectories>
       <AdditionalDependencies>Voxgen.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>

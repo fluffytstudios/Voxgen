@@ -11,8 +11,9 @@ namespace Voxgen
 		virtual ~Application();
 		
 		void Run();
+		void Update(double dt);
 	};
 
-	//To be defined in CLIENT
+	//Defined in client
 	Application* CreateApplication();
 }

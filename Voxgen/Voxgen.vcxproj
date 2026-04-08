@@ -15,9 +15,11 @@
     <ClInclude Include="src\Voxgen\Application.h" />
     <ClInclude Include="src\Voxgen\Core.h" />
     <ClInclude Include="src\Voxgen\EntryPoint.h" />
+    <ClInclude Include="src\Voxgen\Logger.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Voxgen\Application.cpp" />
+    <ClCompile Include="src\Voxgen\Logger.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
@@ -72,6 +74,10 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
