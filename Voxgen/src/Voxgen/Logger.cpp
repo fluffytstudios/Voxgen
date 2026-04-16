@@ -89,7 +89,6 @@ namespace Voxgen {
 		size_t len = ind[1] - ind[0] + 1	;
 
 		std::string sstr = str.substr(ind[0] + deltaI + 1, len);
-		printf("%s\n", sstr.c_str());
 
 		return std::stoi(sstr);
 	}
