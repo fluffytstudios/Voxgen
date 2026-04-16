@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Projects\Voxgen\bin\Debug-x64\Voxgen\Voxgen.dll</FullPath>
+      <FullPath>C:\Projects\Voxgen\bin\Debug-x64\Sandbox\Voxgen.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Projects\Voxgen\bin\Debug-x64\Sandbox\Sandbox.exe</FullPath>

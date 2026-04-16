@@ -8,7 +8,7 @@ namespace Voxgen
 {
 	Application::Application() 
 	{
-	
+		Run();
 	}
 
 	Application::~Application() 
@@ -18,11 +18,11 @@ namespace Voxgen
 
 	void Application::Run() 
 	{
-		while (true);
+
 	}
 
 	void Application::Update(double dt)
 	{
-		printf("%e\n", dt);
+		
 	}
 }
